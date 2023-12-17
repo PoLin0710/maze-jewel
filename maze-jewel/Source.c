@@ -16,7 +16,7 @@ void find(char maze[][SIZE], int start[]) //找起點(一律在右邊)放入start[2]={X,Y}
 		}
 	}
 }
-int findend(char maze[][SIZE], int start[], int x, int y, int dir) //有終點return 1 反之為0
+int findend(char maze[][SIZE], int start[], int x, int y, int dir) 
 {
 	if (maze[y][x] == 'O')count++;
 	maze[y][x] = '@';
